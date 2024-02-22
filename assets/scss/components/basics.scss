@@ -32,16 +32,12 @@ html {
 			}
 		}
 
-		// Main
-		main {
-			max-width: f.em(1200);
-			padding: 0 f.em(32);
-			margin: 0 auto;
-		}
-
 		// Section
 		section {
 			@include m.flex($ai: center, $jc: center, $fd: column);
+
+			padding-bottom: f.em(40);
+			margin-bottom: f.em(80);
 		}
 
 		// Titles
@@ -50,7 +46,7 @@ html {
 
 			width: fit-content;
 			margin-top: f.em(16);
-			margin-bottom: f.em(16);
+			margin-bottom: f.em(32);
 
 			font-family: $font-family--secondary;
 			font-size: f.rem(40);

@@ -5,13 +5,21 @@
 .services {
 	padding: f.em(24) 0;
 
+	background-color: $color-black;
+
+	&__title {
+		color: $color-white;
+	}
+
 	&__container {
 		@include m.grid($gc: repeat(6, f.em(304)), $gap: f.rem(32));
 
 		max-width: 100%;
-		padding: 0 f.em(16) f.em(24) f.em(16);
+		padding: 0 f.em(32) f.em(24) f.em(32);
+		margin: 0 auto;
 
 		overflow: auto;
+		scroll-snap-type: x mandatory;
 	}
 
 	&__article {
@@ -21,6 +29,7 @@
 		background-color: $color-white;
 
 		overflow: hidden;
+		scroll-snap-align: center;
 
 		&__container {
 			padding: f.em(16) f.em(24) f.em(24);

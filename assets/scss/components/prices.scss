@@ -1,0 +1,35 @@
+@use "variables" as *;
+@use "mixins" as m;
+@use "functions" as f;
+
+.prices {
+	&__container {
+		@include m.grid($gc: repeat(2, minmax(0, 1fr)), $gap: f.em(32));
+
+		max-width: f.em(1200);
+		padding: 0 f.em(32);
+		margin: 0 auto;
+	}
+
+	&__article {
+		padding: f.em(32);
+
+		background-color: $color-black;
+		color: $color-white;
+
+		&__title {
+			font-family: $font-family--secondary;
+			font-weight: bold;
+
+			margin-bottom: f.em(16);
+		}
+
+		&__list {
+		}
+
+		&:last-child {
+			background-color: $color-gold;
+			color: $color-black;
+		}
+	}
+}

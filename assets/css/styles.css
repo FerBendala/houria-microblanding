@@ -266,7 +266,7 @@ html {
 }
 html body {
   margin: 0;
-  color: #49494f;
+  color: #1a1a1a;
   background-color: #ffffff;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
@@ -281,11 +281,6 @@ html body * {
 }
 html body *:focus {
   outline: none;
-}
-html body main {
-  max-width: 75em;
-  padding: 0 2em;
-  margin: 0 auto;
 }
 html body section {
   display: -webkit-box;
@@ -307,12 +302,14 @@ html body section {
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center;
+  padding-bottom: 2.5em;
+  margin-bottom: 5em;
 }
 html body h2 {
   position: relative;
   width: fit-content;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   font-family: "Delius", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
@@ -390,7 +387,7 @@ html body a {
 }
 .header__nav__list .list__item__link {
   position: relative;
-  color: #49494f;
+  color: #1a1a1a;
   font-family: "Delius", sans-serif;
   font-size: 1.125em;
   font-weight: 600;
@@ -424,20 +421,27 @@ html body a {
 
 .services {
   padding: 1.5em 0;
+  background-color: #1a1a1a;
+}
+.services__title {
+  color: #ffffff;
 }
 .services__container {
   display: grid;
   grid-template-columns: repeat(6, 19em);
   gap: 2rem;
   max-width: 100%;
-  padding: 0 1em 1.5em 1em;
+  padding: 0 2em 1.5em 2em;
+  margin: 0 auto;
   overflow: auto;
+  scroll-snap-type: x mandatory;
 }
 .services__article {
   border-radius: 1em;
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
   overflow: hidden;
+  scroll-snap-align: center;
 }
 .services__article__container {
   padding: 1em 1.5em 1.5em;
@@ -447,6 +451,28 @@ html body a {
   font-family: "Delius", sans-serif;
   font-size: 0.875em;
   font-weight: bold;
+}
+.prices__container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2em;
+  max-width: 75em;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+.prices__article {
+  padding: 2em;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.prices__article__title {
+  font-family: "Delius", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.prices__article:last-child {
+  background-color: #bda76b;
+  color: #1a1a1a;
 }
 
 /*# sourceMappingURL=styles.css.map */
