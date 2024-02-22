@@ -1,0 +1,90 @@
+@use "variables" as *;
+@use "mixins" as m;
+@use "functions" as f;
+
+@import "fonts";
+@import "reset";
+
+html {
+	scroll-behavior: smooth;
+
+	body {
+		margin: 0;
+
+		color: $color-black;
+		background-color: $color-white;
+
+		font-size: f.rem(16);
+		font-family: $font-family;
+		line-height: 1.4;
+
+		// Basics
+		* {
+			box-sizing: border-box;
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-tap-highlight-color: transparent;
+
+			// All focus
+			&:focus {
+				outline: none;
+			}
+		}
+
+		// Main
+		main {
+			max-width: f.em(1200);
+			padding: 0 f.em(32);
+			margin: 0 auto;
+		}
+
+		// Section
+		section {
+			@include m.flex($ai: center, $jc: center, $fd: column);
+		}
+
+		// Titles
+		h2 {
+			@include m.position(relative);
+
+			width: fit-content;
+			margin-top: f.em(16);
+			margin-bottom: f.em(16);
+
+			font-family: $font-family--secondary;
+			font-size: f.rem(40);
+			font-weight: 700;
+			text-align: center;
+
+			&::after {
+				@include m.position(absolute, calc(100% + f.em(4)), f.em(-16), 0, f.em(-16));
+
+				height: f.em(1);
+				border-radius: f.em(1);
+				opacity: 0.4;
+
+				background-color: $color-gold;
+
+				transition: $transition;
+				content: "";
+			}
+		}
+
+		// Images
+		img {
+			max-width: 100%;
+		}
+
+		// Buttons
+		button {
+			font-family: $font-family;
+			font-weight: bold;
+		}
+
+		// Link
+		a {
+			text-decoration: none;
+		}
+	}
+}

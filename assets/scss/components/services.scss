@@ -1,0 +1,40 @@
+@use "variables" as *;
+@use "mixins" as m;
+@use "functions" as f;
+
+.services {
+	padding: f.em(24) 0;
+
+	&__container {
+		@include m.grid($gc: repeat(6, f.em(304)), $gap: f.rem(32));
+
+		max-width: 100%;
+		padding: 0 f.em(16) f.em(24) f.em(16);
+
+		overflow: auto;
+	}
+
+	&__article {
+		border-radius: f.em(16);
+		box-shadow: $box-shadow;
+
+		background-color: $color-white;
+
+		overflow: hidden;
+
+		&__container {
+			padding: f.em(16) f.em(24) f.em(24);
+		}
+
+		&__title {
+			margin-bottom: f.em(8);
+
+			font-family: $font-family--secondary;
+			font-size: f.em(14);
+			font-weight: bold;
+		}
+
+		&__text {
+		}
+	}
+}

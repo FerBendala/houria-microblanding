@@ -1,0 +1,452 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-Thin.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-ThinItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ThinItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 200;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraLightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-LightItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-RegularItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-RegularItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-MediumItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-BoldItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 800;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-Black.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  font-display: fallback;
+  src: url("../fonts/Poppins/Poppins-BlackItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-BlackItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Delius";
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  src: url("../fonts/Delius/DeliusUnicase-Regular.woff2") format("woff2");
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  margin: 0;
+  color: #49494f;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+}
+html body * {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+html body *:focus {
+  outline: none;
+}
+html body main {
+  max-width: 75em;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+html body section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+html body h2 {
+  position: relative;
+  width: fit-content;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: "Delius", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+html body h2::after {
+  position: absolute;
+  top: calc(100% + 0.25em);
+  right: -1em;
+  bottom: 0;
+  left: -1em;
+  height: 0.0625em;
+  border-radius: 0.0625em;
+  opacity: 0.4;
+  background-color: #bda76b;
+  transition: 0.4s ease;
+  content: "";
+}
+html body img {
+  max-width: 100%;
+}
+html body button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+html body a {
+  text-decoration: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  z-index: 3;
+}
+.header__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  max-width: 75em;
+  margin: 0 auto;
+  padding: 0.5em 2em;
+}
+.header__logo__link {
+  display: block;
+}
+.header__logo__link img {
+  width: 12.5em;
+}
+.header__nav__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  gap: 1.5em;
+}
+.header__nav__list .list__item__link {
+  position: relative;
+  color: #49494f;
+  font-family: "Delius", sans-serif;
+  font-size: 1.125em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+.header__nav__list .list__item__link::after {
+  position: absolute;
+  top: calc(100% + 0.25em);
+  right: 50%;
+  bottom: 0;
+  left: 50%;
+  height: 0.125em;
+  border-radius: 0.125em;
+  opacity: 0;
+  background-color: #bda76b;
+  transition: 0.4s ease;
+  content: "";
+}
+.header__nav__list .list__item__link:hover {
+  color: #bda76b;
+}
+.header__nav__list .list__item__link:hover::after {
+  position: absolute;
+  top: calc(100% + 0.25em);
+  right: -0.5em;
+  bottom: 0;
+  left: -0.5em;
+  opacity: 1;
+}
+
+.services {
+  padding: 1.5em 0;
+}
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(6, 19em);
+  gap: 2rem;
+  max-width: 100%;
+  padding: 0 1em 1.5em 1em;
+  overflow: auto;
+}
+.services__article {
+  border-radius: 1em;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.services__article__container {
+  padding: 1em 1.5em 1.5em;
+}
+.services__article__title {
+  margin-bottom: 0.5em;
+  font-family: "Delius", sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
