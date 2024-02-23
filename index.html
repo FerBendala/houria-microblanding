@@ -13,7 +13,7 @@
 <body id="top">
 	<!-- Header -->
 	<header class="header">
-		<div class="header__container">
+		<div class="header__desktop">
 			<h1 class="header__logo">
 				<a href="#top" class="header__logo__link">
 					<img src="./assets/img/logo-houria.webp" alt="Logo Houria Chtiar Microblading">
@@ -34,6 +34,22 @@
 				</ul>
 			</nav>
 		</div>
+		<div class="header__mobile">
+			<!-- Responsive Menu Toggle Button -->
+			<label for="menu-toggle" class="header__responsive-menu__icon">
+				<input type="checkbox" id="menu-toggle">
+				<span>&#9776;</span>
+			</label>
+
+			<!-- Responsive Menu -->
+			<div class="header__responsive-menu__menu">
+				<ul class="menu__list">
+					<li class="menu__list__item"><a href="#top">Servicios</a></li>
+					<li class="menu__list__item"><a href="#prices">Precios</a></li>
+					<li class="menu__list__item"><a href="#contact">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
 	</header>
 
 	<!-- Content -->
@@ -43,6 +59,10 @@
 			<h2 class="services__title">Nuestros servicios</h2>
 
 			<div class="services__container">
+
+				<!-- Ghost -->
+				<article class="services__article--ghost"></article>
+				<article class="services__article--ghost"></article>
 
 				<!-- Microblading -->
 				<article class="services__article">
@@ -141,21 +161,20 @@
 			</div>
 
 			<!-- Cita previa -->
-			<a href="https://api.whatsapp.com/message/S24U6NFTMDB6A1?autoload=1&app_absent=0" target="_blank" aria-label="Cita previa" class="prices__link">Cita previa</a>
+			<a href="https://api.whatsapp.com/message/S24U6NFTMDB6A1?autoload=1&app_absent=0" target="_blank" aria-label="Cita previa" class="button button--black prices__button">Cita previa</a>
 		</section>
 
 		<!-- Contact -->
-		<section id="contact">
-			<h2 id="contact">Contacto</h2>
-			<p>Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
-			<a href="https://api.whatsapp.com/message/S24U6NFTMDB6A1?autoload=1&app_absent=0" target="_blank" aria-label="Contacto">Contactanos</a>
+		<section id="contact" class="contact">
+			<h2 id="contact" class="contact__title">Contacto</h2>
+			<p class="contact__text">Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
+			<a href="https://api.whatsapp.com/message/S24U6NFTMDB6A1?autoload=1&app_absent=0" target="_blank" aria-label="Contacto" class="button contact__button">Contactanos</a>
 		</section>
 	</main>
 
 	<!-- Footer -->
-	<footer>
-		<img src="./assets/img/logo-houria.webp" alt="Logo Houria Chtiar Microblading">
-		<p>&copy; 2021 Houria Chtiar Microblading</p>
+	<footer class="footer">
+		<img src="./assets/img/logo-houria.webp" alt="Logo Houria Chtiar Microblading" class="footer__logo">
 	</footer>
 </body>
 

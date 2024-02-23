@@ -1,135 +1,143 @@
+@charset "UTF-8";
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 100;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-Thin.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Thin.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-Thin.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-Thin.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 100;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-ThinItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ThinItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-ThinItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-ThinItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 200;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraLight.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-ExtraLight.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-ExtraLight.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 200;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraLightItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-ExtraLightItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 300;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Light.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-Light.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-Light.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 300;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-LightItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-LightItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-LightItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-LightItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-Regular.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-Regular.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 400;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-RegularItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-RegularItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-RegularItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-RegularItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 500;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Medium.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-Medium.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-Medium.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 500;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-MediumItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-MediumItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-MediumItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-MediumItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 600;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-SemiBold.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-SemiBold.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 600;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBoldItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-SemiBoldItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 700;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Bold.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-Bold.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-Bold.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 700;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-BoldItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-BoldItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-BoldItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-BoldItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 800;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraBold.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-ExtraBold.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-ExtraBold.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 800;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraBoldItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-ExtraBoldItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: normal;
   font-weight: 900;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-Black.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Black.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-Black.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-Black.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Fredoka";
   font-style: italic;
   font-weight: 900;
   font-display: fallback;
-  src: url("../fonts/Poppins/Poppins-BlackItalic.woff2") format("woff2"), url("../fonts/Poppins/Poppins-BlackItalic.woff") format("woff");
+  src: url("../fonts/Fredoka/Fredoka-BlackItalic.woff2") format("woff2"), url("../fonts/Fredoka/Fredoka-BlackItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "Delius";
+  font-family: "Lora";
   font-style: normal;
   font-weight: normal;
   font-display: fallback;
-  src: url("../fonts/Delius/DeliusUnicase-Regular.woff2") format("woff2");
+  src: url("../fonts/Lora/Lora-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  src: url("../fonts/Lora/Lora-Italic.woff2") format("woff2");
 }
 html,
 body,
@@ -269,7 +277,7 @@ html body {
   color: #1a1a1a;
   background-color: #ffffff;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fredoka", sans-serif;
   line-height: 1.4;
 }
 html body * {
@@ -303,14 +311,21 @@ html body section {
   -moz-align-items: center;
   align-items: center;
   padding-bottom: 2.5em;
+}
+html body section:not(:last-child) {
   margin-bottom: 5em;
+}
+@media (max-width: 991px) {
+  html body section {
+    padding-bottom: 0;
+  }
 }
 html body h2 {
   position: relative;
   width: fit-content;
   margin-top: 1em;
   margin-bottom: 2em;
-  font-family: "Delius", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
@@ -328,25 +343,46 @@ html body h2::after {
   transition: 0.4s ease;
   content: "";
 }
+@media (max-width: 991px) {
+  html body h2 {
+    margin-bottom: 1.5em;
+  }
+  html body h2::after {
+    content: none;
+  }
+}
 html body img {
   max-width: 100%;
 }
 html body button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-weight: bold;
 }
 html body a {
   text-decoration: none;
+}
+html body .button {
+  padding: 1em 2em;
+  background-color: #bda76b;
+  color: #1a1a1a;
+  font-family: "Lora", sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+html body .button--black {
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
 
 .header {
   position: sticky;
   top: 0;
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
   z-index: 3;
 }
-.header__container {
+.header__desktop {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -365,6 +401,33 @@ html body a {
   max-width: 75em;
   margin: 0 auto;
   padding: 0.5em 2em;
+}
+@media (max-width: 991px) {
+  .header__desktop {
+    display: none;
+  }
+}
+.header__mobile {
+  display: none;
+}
+@media (max-width: 991px) {
+  .header__mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+  }
 }
 .header__logo__link {
   display: block;
@@ -388,7 +451,7 @@ html body a {
 .header__nav__list .list__item__link {
   position: relative;
   color: #1a1a1a;
-  font-family: "Delius", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 1.125em;
   font-weight: 600;
   text-decoration: none;
@@ -418,6 +481,23 @@ html body a {
   left: -0.5em;
   opacity: 1;
 }
+.header__responsive-menu__icon {
+  display: block;
+  padding: 0.125em 1em 0.25em;
+  color: #1a1a1a;
+  font-size: 2em;
+}
+.header__responsive-menu__icon input {
+  display: none;
+}
+.header__responsive-menu__menu {
+  display: none;
+}
+.header__responsive-menu__menu .menu__list__item a {
+  display: block;
+  font-family: "Lora", sans-serif;
+  text-decoration: none;
+}
 
 .services {
   padding: 1.5em 0;
@@ -428,13 +508,21 @@ html body a {
 }
 .services__container {
   display: grid;
-  grid-template-columns: repeat(6, 19em);
+  grid-template-columns: repeat(3, 19em);
   gap: 2rem;
   max-width: 100%;
   padding: 0 2em 1.5em 2em;
   margin: 0 auto;
   overflow: auto;
   scroll-snap-type: x mandatory;
+  touch-action: auto;
+}
+@media (max-width: 991px) {
+  .services__container {
+    display: grid;
+    grid-template-columns: repeat(8, 19em);
+    gap: 1rem;
+  }
 }
 .services__article {
   border-radius: 1em;
@@ -442,37 +530,131 @@ html body a {
   background-color: #ffffff;
   overflow: hidden;
   scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 .services__article__container {
   padding: 1em 1.5em 1.5em;
 }
 .services__article__title {
   margin-bottom: 0.5em;
-  font-family: "Delius", sans-serif;
-  font-size: 0.875em;
+  font-family: "Lora", sans-serif;
+  font-size: 1.5em;
   font-weight: bold;
 }
+.services__article--ghost {
+  display: none;
+}
+@media (max-width: 991px) {
+  .services__article--ghost {
+    display: block;
+  }
+}
+
 .prices__container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
   gap: 2em;
-  max-width: 75em;
+  width: 100%;
   padding: 0 2em;
-  margin: 0 auto;
+  margin: 0 auto 2em;
+}
+@media (max-width: 991px) {
+  .prices__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+  }
 }
 .prices__article {
+  width: 100%;
+  max-width: 27.5em;
   padding: 2em;
   background-color: #1a1a1a;
   color: #ffffff;
 }
 .prices__article__title {
-  font-family: "Delius", sans-serif;
-  font-weight: bold;
   margin-bottom: 1em;
+  font-size: 1.5em;
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+}
+.prices__article__list .list__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 0.5em;
+}
+.prices__article__list .list__item::before {
+  content: "→";
 }
 .prices__article:last-child {
   background-color: #bda76b;
   color: #1a1a1a;
+}
+
+.contact {
+  padding: 1em 2em 4em;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.contact__title {
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+.contact__text {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  max-width: 75em;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
+.footer__logo {
+  width: 12.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -15,9 +15,10 @@ $font-weights: (
 
 // Roboto
 @each $weight, $name in $font-weights {
-	@include m.font-face("Roboto", "../fonts/Poppins/Poppins-#{$name}", $weight, normal, woff2 woff);
-	@include m.font-face("Roboto", "../fonts/Poppins/Poppins-#{$name}Italic", $weight, italic, woff2 woff);
+	@include m.font-face("Fredoka", "../fonts/Fredoka/Fredoka-#{$name}", $weight, normal, woff2 woff);
+	@include m.font-face("Fredoka", "../fonts/Fredoka/Fredoka-#{$name}Italic", $weight, italic, woff2 woff);
 }
 
-// Material Symbols
-@include m.font-face("Delius", "../fonts/Delius/DeliusUnicase-Regular", normal, normal, woff2);
+// Lora
+@include m.font-face("Lora", "../fonts/Lora/Lora-Regular", normal, normal, woff2);
+@include m.font-face("Lora", "../fonts/Lora/Lora-Italic", normal, normal, woff2);

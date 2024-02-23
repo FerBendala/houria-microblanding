@@ -37,7 +37,14 @@ html {
 			@include m.flex($ai: center, $jc: center, $fd: column);
 
 			padding-bottom: f.em(40);
-			margin-bottom: f.em(80);
+
+			&:not(:last-child) {
+				margin-bottom: f.em(80);
+			}
+
+			@include m.media(laptop) {
+				padding-bottom: 0;
+			}
 		}
 
 		// Titles
@@ -65,6 +72,14 @@ html {
 				transition: $transition;
 				content: "";
 			}
+
+			@include m.media(laptop) {
+				margin-bottom: f.em(24);
+
+				&::after {
+					content: none;
+				}
+			}
 		}
 
 		// Images
@@ -81,6 +96,23 @@ html {
 		// Link
 		a {
 			text-decoration: none;
+		}
+
+		// Button
+		.button {
+			padding: f.em(16) f.em(32);
+
+			background-color: $color-gold;
+			color: $color-black;
+
+			font-family: $font-family--secondary;
+			font-size: f.em(18);
+			font-weight: bold;
+
+			&--black {
+				background-color: $color-black;
+				color: $color-white;
+			}
 		}
 	}
 }

@@ -1,0 +1,21 @@
+@use "variables" as *;
+@use "mixins" as m;
+@use "functions" as f;
+
+.contact {
+	padding: f.em(16) f.em(32) f.em(64);
+
+	background-color: $color-black;
+	color: $color-white;
+
+	&__title {
+		color: $color-white;
+		margin-bottom: f.em(8);
+	}
+
+	&__text {
+		margin-bottom: f.em(32);
+
+		text-align: center;
+	}
+}

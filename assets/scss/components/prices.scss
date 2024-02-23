@@ -4,27 +4,44 @@
 
 .prices {
 	&__container {
-		@include m.grid($gc: repeat(2, minmax(0, 1fr)), $gap: f.em(32));
+		@include m.flex($jc: center, $gap: f.em(32));
 
-		max-width: f.em(1200);
+		width: 100%;
 		padding: 0 f.em(32);
-		margin: 0 auto;
+		margin: 0 auto f.em(32);
+
+		@include m.media(laptop) {
+			@include m.flex($fd: column, $jc: center);
+		}
 	}
 
 	&__article {
+		width: 100%;
+		max-width: f.em(440);
 		padding: f.em(32);
 
 		background-color: $color-black;
 		color: $color-white;
 
 		&__title {
+			margin-bottom: f.em(16);
+
+			font-size: f.em(24);
 			font-family: $font-family--secondary;
 			font-weight: bold;
-
-			margin-bottom: f.em(16);
 		}
 
 		&__list {
+			.list {
+				&__item {
+					@include m.flex($ai: center, $gap: f.em(16));
+
+					margin-bottom: f.em(8);
+					&::before {
+						content: "→";
+					}
+				}
+			}
 		}
 
 		&:last-child {

@@ -7,16 +7,30 @@
 
 	box-shadow: $box-shadow;
 
-	background-color: $color-white;
+	background-color: rgba($color-white, 0.4);
+	backdrop-filter: blur(8px);
 
 	z-index: 3;
 
-	&__container {
+	&__desktop {
 		@include m.flex($ai: center, $jc: space-between);
 
 		max-width: f.em(1200);
 		margin: 0 auto;
 		padding: f.em(8) f.em(32);
+
+		@include m.media(laptop) {
+			display: none;
+		}
+	}
+
+	// MOBILE
+	&__mobile {
+		display: none;
+
+		@include m.media(laptop) {
+			@include m.flex($ai: center, $jc: flex-end);
+		}
 	}
 
 	&__logo {
@@ -68,6 +82,37 @@
 
 								opacity: 1;
 							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__responsive-menu {
+		&__icon {
+			display: block;
+			padding: f.em(2) f.em(16) f.em(4);
+
+			color: $color-black;
+
+			font-size: f.em(32);
+
+			input {
+				display: none;
+			}
+		}
+
+		&__menu {
+			display: none;
+			.menu {
+				&__list {
+					&__item {
+						a {
+							display: block;
+
+							font-family: $font-family--secondary;
+							text-decoration: none;
 						}
 					}
 				}
