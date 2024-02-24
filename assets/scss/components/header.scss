@@ -91,16 +91,30 @@
 	}
 
 	&__responsive-menu {
-		&__icon {
-			display: block;
-			padding: f.em(2) f.em(16) f.em(4);
+		&__header {
+			@include m.flex($ai: center, $jc: space-between);
 
-			color: $color-black;
+			width: 100%;
+			padding: 0 0 0 f.em(24);
 
-			font-size: f.em(32);
+			img {
+				width: f.em(40);
+				filter: drop-shadow(f.em(1) f.em(1) f.em(2) rgba($color-black, 0.2));
+			}
 
-			input {
-				display: none;
+			.header {
+				&__icon {
+					display: block;
+					padding: f.em(2) f.em(16) f.em(4);
+
+					color: $color-black;
+
+					font-size: f.em(32);
+
+					input {
+						display: none;
+					}
+				}
 			}
 		}
 
