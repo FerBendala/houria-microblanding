@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Houria Chtiar Microblading</title>
+	<link rel="icon" href="./assets/img/favicon.png" sizes="192x192">
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="./assets/css/styles.css">
@@ -36,13 +37,21 @@
 		</div>
 		<div class="header__mobile">
 			<!-- Responsive Menu Toggle Button -->
-			<label for="menu-toggle" class="header__responsive-menu__icon">
-				<input type="checkbox" id="menu-toggle">
-				<span>&#9776;</span>
+			<label for="menu-open" class="header__responsive-menu__icon">
+				<input type="radio" id="menu-open" name="menu-button">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+					<path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+				</svg>
 			</label>
 
 			<!-- Responsive Menu -->
 			<div class="header__responsive-menu__menu">
+				<label for="menu-close" class="menu__icon">
+					<input type="radio" id="menu-close" name="menu-button">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" fill="currentColor"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+					</svg>
+				</label>
 				<ul class="menu__list">
 					<li class="menu__list__item"><a href="#top">Servicios</a></li>
 					<li class="menu__list__item"><a href="#prices">Precios</a></li>
@@ -51,6 +60,7 @@
 			</div>
 		</div>
 	</header>
+
 
 	<!-- Content -->
 	<main class="main">
@@ -166,9 +176,11 @@
 
 		<!-- Contact -->
 		<section id="contact" class="contact">
-			<h2 id="contact" class="contact__title">Contacto</h2>
-			<p class="contact__text">Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
-			<a href="https://api.whatsapp.com/message/S24U6NFTMDB6A1?autoload=1&app_absent=0" target="_blank" aria-label="Contacto" class="button contact__button">Contactanos</a>
+			<div class="contact__container">
+				<h2 id="contact" class="contact__title">Contacto</h2>
+				<p class="contact__text">Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
+				<a href="https://api.whatsapp.com/message/S24U6NFTMDB6A1?autoload=1&app_absent=0" target="_blank" aria-label="Contacto" class="button contact__button">Contactanos</a>
+			</div>
 		</section>
 	</main>
 
@@ -176,6 +188,9 @@
 	<footer class="footer">
 		<img src="./assets/img/logo-houria.webp" alt="Logo Houria Chtiar Microblading" class="footer__logo">
 	</footer>
+
+	<!-- Scripts -->
+	<script src="./assets/js/index.js"></script>
 </body>
 
 </html>

@@ -3,19 +3,41 @@
 @use "functions" as f;
 
 .contact {
-	padding: f.em(16) f.em(32) f.em(64);
+	padding-bottom: 0;
 
 	background-color: $color-black;
 	color: $color-white;
 
+	@include m.flex($jc: center, $ai: flex-start, $fd: row, $gap: f.em(32));
+	@include m.media(laptop) {
+		@include m.flex($fd: column, $jc: center, $ai: center);
+	}
+
+	&__container {
+		@include m.flex($fd: column, $jc: center, $ai: center);
+
+		padding: f.em(16) f.em(32) f.em(64);
+	}
+
 	&__title {
-		color: $color-white;
 		margin-bottom: f.em(8);
+
+		color: $color-white;
+
+		text-align: center;
 	}
 
 	&__text {
 		margin-bottom: f.em(32);
 
 		text-align: center;
+	}
+
+	iframe {
+		max-width: 100%;
+
+		@include m.media(laptop) {
+			margin-top: f.em(32);
+		}
 	}
 }

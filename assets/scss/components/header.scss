@@ -12,6 +12,7 @@
 
 	z-index: 3;
 
+	// DESKTOP
 	&__desktop {
 		@include m.flex($ai: center, $jc: space-between);
 
@@ -21,15 +22,6 @@
 
 		@include m.media(laptop) {
 			display: none;
-		}
-	}
-
-	// MOBILE
-	&__mobile {
-		display: none;
-
-		@include m.media(laptop) {
-			@include m.flex($ai: center, $jc: flex-end);
 		}
 	}
 
@@ -89,6 +81,15 @@
 		}
 	}
 
+	// MOBILE
+	&__mobile {
+		display: none;
+
+		@include m.media(laptop) {
+			@include m.flex($ai: center, $jc: flex-end);
+		}
+	}
+
 	&__responsive-menu {
 		&__icon {
 			display: block;
@@ -104,14 +105,53 @@
 		}
 
 		&__menu {
-			display: none;
+			@include m.position(fixed, 0, 0, 0, 0);
+
+			height: 100vh;
+			opacity: 0;
+			pointer-events: none;
+
+			background-color: $color-black;
+
+			transition: $transition;
+
+			&.open {
+				@include m.flex($fd: column, $jc: center, $ai: center, $gap: f.em(32));
+
+				opacity: 1;
+				pointer-events: all;
+			}
+
 			.menu {
+				&__icon {
+					@include m.position(absolute, f.em(2), 0);
+
+					display: block;
+					padding: f.em(2) f.em(16) f.em(4);
+
+					color: $color-white;
+
+					font-size: f.em(32);
+
+					z-index: 1;
+
+					input {
+						display: none;
+					}
+				}
+
 				&__list {
+					@include m.flex($fd: column, $jc: center, $ai: center, $gap: f.em(32));
 					&__item {
 						a {
 							display: block;
 
+							color: $color-white;
+
 							font-family: $font-family--secondary;
+							font-size: f.em(32);
+							font-weight: bold;
+							text-align: center;
 							text-decoration: none;
 						}
 					}

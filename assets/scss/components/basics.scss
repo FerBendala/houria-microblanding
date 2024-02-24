@@ -101,6 +101,7 @@ html {
 		// Button
 		.button {
 			padding: f.em(16) f.em(32);
+			border: f.em(2) solid currentColor;
 
 			background-color: $color-gold;
 			color: $color-black;
@@ -109,9 +110,23 @@ html {
 			font-size: f.em(18);
 			font-weight: bold;
 
+			transition: $transition;
+
+			&:hover {
+				border-color: $color-gold;
+				color: $color-gold;
+				background-color: transparent;
+			}
+
 			&--black {
 				background-color: $color-black;
 				color: $color-white;
+
+				&:hover {
+					border-color: $color-black;
+					color: $color-black;
+					background-color: transparent;
+				}
 			}
 		}
 	}
